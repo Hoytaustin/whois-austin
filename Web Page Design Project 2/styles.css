@@ -1,0 +1,114 @@
+#navbar{
+    background-color: hsla(39, 68%, 74%, 0.663);
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    font-size: 38px;
+}
+
+a{
+    text-decoration: none;
+    color: coral;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    position:fixed ;
+    bottom: 0;
+    left: 1;
+}
+
+body{
+    background-color: #f8e7d8;
+    text-align: center;
+}
+
+h1{
+    background-color: hsla(39, 68%, 74%, 0.663);
+    color: coral;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 45px;
+    padding: 45px;
+}
+
+#contact{
+    display: grid;
+    margin-top: 45px;
+
+}
+
+img{
+    padding: 45px;
+}
+
+main{
+    margin: auto;
+    border: 2px solid black;
+    height: 30vh;
+    width: 75vh;
+}
+
+#aboutme{
+    padding-top: 1em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+width: fit-content;
+height: fit-content;
+
+}
+
+#cave{
+    padding: 1em;
+    margin: 3em;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box1, .box2, .box3{
+font-weight: 800;
+align-self: center;
+background-color: rgb(232, 162, 78);
+padding: 2em;
+}
+
+.box4, .box5, .box6{
+    background-color: burlywood;
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  h2{
+    font-size: 3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+  }
+
+.pf1, .pf2, .pf3, .pf4 {
+    width: 25em;
+    text-align: center;
+    padding-top: .001em;
+    margin: .01em;
+}
